@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Replanting%20Crops"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Replanting%20Crops"
 logoFile="icon.png"
 
 [[mods]]
 modId="replantingcrops"
-version="5.2"
+version="5.3"
 displayName="Replanting Crops"
-displayURL="https://curseforge.com/minecraft/mc-mods/replanting-crops"
+displayURL="https://serilum.com/mod/replanting-crops"
 authors="Rick South"
 description='''Automatically replants/replaces/reseeds crops harvested with seeds from drops, negated by holding the sneak button.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.replantingcrops]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.replantingcrops]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"
