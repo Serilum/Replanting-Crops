@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "replantingcrops",
-  "version": "5.2",
+  "version": "5.3",
 
   "name": "Replanting Crops",
   "description": "Automatically replants/replaces/reseeds crops harvested with seeds from drops, negated by holding the sneak button.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/replanting-crops",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Replanting%20Crops",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Replanting%20Crops"
+    "homepage": "https://serilum.com/mod/replanting-crops",
+    "sources": "https://github.com/Serilum/Replanting-Crops",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Replanting%20Crops"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
