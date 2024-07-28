@@ -1,6 +1,7 @@
 package com.natamus.replantingcrops;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.replantingcrops.events.CropEvent;
 import com.natamus.replantingcrops.util.Reference;
 import net.fabricmc.api.ModInitializer;
@@ -13,6 +14,10 @@ public class ModFabric implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		setGlobalConstants();
 		ModCommon.init();
 
