@@ -6,9 +6,7 @@ import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.neoforge.event.level.BlockEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeCropEvent {
 	@SubscribeEvent
 	public static void onHarvest(BlockEvent.BreakEvent e) {
