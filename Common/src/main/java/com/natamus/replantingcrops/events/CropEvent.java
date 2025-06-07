@@ -37,11 +37,11 @@ public class CropEvent {
 		}
 		
 		InteractionHand hand = null;
-		if (ConfigHandler.mustHoldHoeForReplanting) {
+		if (ConfigHandler.mustHoldToolForReplanting) {
 			hand = InteractionHand.MAIN_HAND;
-			if (!Services.TOOLFUNCTIONS.isHoe(player.getMainHandItem())) {
+			if (!Services.TOOLFUNCTIONS.isHoe(player.getMainHandItem()) && !Services.TOOLFUNCTIONS.isAxe(player.getMainHandItem())) {
 				hand = InteractionHand.OFF_HAND;
-				if (!Services.TOOLFUNCTIONS.isHoe(player.getOffhandItem())) {
+				if (!Services.TOOLFUNCTIONS.isHoe(player.getOffhandItem()) && !Services.TOOLFUNCTIONS.isAxe(player.getOffhandItem())) {
 					return true;
 				}
 			}
