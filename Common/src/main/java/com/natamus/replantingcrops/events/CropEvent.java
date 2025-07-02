@@ -53,7 +53,12 @@ public class CropEvent {
 		
 		Block block = state.getBlock();
 
-		if (block instanceof CropBlock) {
+		if (block instanceof CropBlock crop) {
+			if (ConfigHandler.onlyReplantFullyGrown) {
+				if (!crop.isMaxAge(state))
+					return false;
+			}
+
 			checkreplant.put(hpos, block);
 		}
 		else if (block.equals(Blocks.NETHER_WART)) {
