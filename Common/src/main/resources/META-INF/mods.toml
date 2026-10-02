@@ -1,29 +1,29 @@
 modLoader="javafml"
 loaderVersion="*"
-license="All rights reserved"
+license="All Rights Reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Replanting%20Crops"
 logoFile="icon.png"
 
 [[mods]]
 modId="replantingcrops"
-version="5.5"
+version="5.7"
 displayName="Replanting Crops"
 displayURL="https://serilum.com/mod/replanting-crops"
-authors="Rick South"
+authors="Serilum"
 description='''Automatically replants/replaces/reseeds crops harvested with seeds from drops, negated by holding the sneak button.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, Cherriesaurus, David Sanchez, drdog111, Michael W. S., t128, Tyler Behl, XAgent   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
-If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+If you would like to contribute too, check out https://serilum.com/donate Appreciate it! <3   
 '''
 
 [[dependencies.replantingcrops]]
     modId="collective"
     type="required"
     mandatory=true
-    versionRange="[7.91,)"
+    versionRange="[8.40,)"
     ordering="NONE"
     side="BOTH"
 

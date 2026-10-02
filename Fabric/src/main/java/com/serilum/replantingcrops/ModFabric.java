@@ -1,9 +1,9 @@
-package com.natamus.replantingcrops;
+package com.serilum.replantingcrops;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.replantingcrops.events.CropEvent;
-import com.natamus.replantingcrops.util.Reference;
+import com.serilum.replantingcrops.events.CropEvent;
+import com.serilum.replantingcrops.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
