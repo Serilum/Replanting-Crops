@@ -1,10 +1,10 @@
-package com.natamus.replantingcrops;
+package com.serilum.replantingcrops;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.replantingcrops.forge.config.IntegrateForgeConfig;
-import com.natamus.replantingcrops.forge.events.ForgeCropEvent;
-import com.natamus.replantingcrops.util.Reference;
+import com.serilum.replantingcrops.forge.config.IntegrateForgeConfig;
+import com.serilum.replantingcrops.forge.events.ForgeCropEvent;
+import com.serilum.replantingcrops.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeCropEvent.registerEventsInBus();
+		ForgeCropEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {
