@@ -1,6 +1,6 @@
-package com.natamus.replantingcrops;
+package com.serilum.replantingcrops;
 
-import com.natamus.replantingcrops.config.ConfigHandler;
+import com.serilum.replantingcrops.config.ConfigHandler;
 
 public class ModCommon {
 

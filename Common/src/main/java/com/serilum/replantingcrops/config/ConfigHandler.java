@@ -1,7 +1,7 @@
-package com.natamus.replantingcrops.config;
+package com.serilum.replantingcrops.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.replantingcrops.util.Reference;
+import com.serilum.replantingcrops.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
