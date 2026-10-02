@@ -1,7 +1,7 @@
-package com.natamus.replantingcrops.forge.events;
+package com.serilum.replantingcrops.forge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.replantingcrops.events.CropEvent;
+import com.serilum.replantingcrops.events.CropEvent;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.level.BlockEvent;

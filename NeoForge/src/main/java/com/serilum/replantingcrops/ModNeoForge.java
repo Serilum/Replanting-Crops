@@ -1,10 +1,10 @@
-package com.natamus.replantingcrops;
+package com.serilum.replantingcrops;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.replantingcrops.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.replantingcrops.neoforge.events.NeoForgeCropEvent;
-import com.natamus.replantingcrops.util.Reference;
+import com.serilum.replantingcrops.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.replantingcrops.neoforge.events.NeoForgeCropEvent;
+import com.serilum.replantingcrops.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;

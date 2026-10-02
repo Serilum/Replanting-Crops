@@ -1,7 +1,7 @@
-package com.natamus.replantingcrops.forge.config;
+package com.serilum.replantingcrops.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.replantingcrops.util.Reference;
+import com.serilum.replantingcrops.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

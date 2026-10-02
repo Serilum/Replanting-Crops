@@ -1,8 +1,8 @@
-package com.natamus.replantingcrops.events;
+package com.serilum.replantingcrops.events;
 
 import com.natamus.collective.functions.ItemFunctions;
 import com.natamus.collective.services.Services;
-import com.natamus.replantingcrops.config.ConfigHandler;
+import com.serilum.replantingcrops.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
